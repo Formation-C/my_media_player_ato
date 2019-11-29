@@ -21,4 +21,5 @@ class State
     private:
 };
 
+#include "Player.h"
 #endif // STATE_H

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <algorithm>
 #include "Player.h"
 
@@ -29,8 +30,28 @@ int main()
     while (input != "exit") {
         cout << "#>" ;
         cin  >> input;
-        decode(input);
-        cout << input << endl;
+
+        try {
+            if (input == "exit"){
+               cout << "\n  Goodbye, my friend !!!" << endl;
+            }
+            else if (input == "play"){
+                player->Getstate()->onPlay();
+            }
+            else if (input == "stop") {
+                player->Getstate()->onStop();
+            }
+            else {
+               cout << "\n  Available commands:" << endl;
+               cout << "  play" << endl;
+               cout << "  stop" << endl;
+               cout << "  help" << endl;
+               cout << "  exit" << endl;
+            }
+        }
+        catch (char const* errorMessage) {
+            cout << errorMessage << endl;
+        }
     }
     return 0;
 }

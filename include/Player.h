@@ -33,5 +33,5 @@ class Player
         int currentTrack;
         State* state;
 };
-
+#include "State.h"
 #endif // PLAYER_H

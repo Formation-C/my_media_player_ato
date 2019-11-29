@@ -7,7 +7,7 @@
 class StoppedState : public State
 {
     public:
-        using State::State;//();
+        using State::State;
 
         StoppedState();
         virtual ~StoppedState();

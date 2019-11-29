@@ -35,10 +35,14 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Player.h" />
+		<Unit filename="include/PlayingState.h" />
 		<Unit filename="include/State.h" />
+		<Unit filename="include/StoppedState.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/PlayingState.cpp" />
 		<Unit filename="src/State.cpp" />
+		<Unit filename="src/StoppedState.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

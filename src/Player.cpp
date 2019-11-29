@@ -1,5 +1,5 @@
 #include "Player.h"
-#include "State.h"
+
 #include "StoppedState.h"
 
 Player::Player()
