@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1575019041 source:d:\devt\formation_cpp\my_media_player\main.cpp
+	<iostream>
+	<algorithm>
+	"Player.h"
+
+1575018714 d:\devt\formation_cpp\my_media_player\include\player.h
+	<string>
+	<vector>
+
+1575019731 source:d:\devt\formation_cpp\my_media_player\src\player.cpp
+	"Player.h"
+
